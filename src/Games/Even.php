@@ -16,7 +16,7 @@ function getRoundData()
     return [$hiddenNumber, isEven($hiddenNumber) ? 'yes' : 'no'];
 }
 
-function playEvenGame()
+function playGame()
 {
     return runGameProcess(
         'Answer "yes" if the number is even, otherwise answer "no".',
