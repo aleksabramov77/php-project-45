@@ -12,5 +12,9 @@
             "email": "aleksandr.a@findbride.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "bin": [
+        "bin/brain-games"
+    ],
+    "license": "MIT"
 }
