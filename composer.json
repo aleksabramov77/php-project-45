@@ -1,0 +1,16 @@
+{
+    "name": "hexlet/code",
+    "description": "\"Учебный проект \\\"Игры разума\\\"\"",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksandr Abramov",
+            "email": "aleksandr.a@findbride.com"
+        }
+    ],
+    "require": {}
+}
