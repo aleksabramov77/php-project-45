@@ -8,7 +8,8 @@
         "files": [
             "src/Cli.php",
             "src/GameProcess.php",
-            "src/Games/Even.php"
+            "src/Games/Even.php",
+            "src/Games/Calc.php"
         ]
     },
     "authors": [
