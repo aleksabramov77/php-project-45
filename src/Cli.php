@@ -7,7 +7,7 @@ use function cli\prompt;
 
 function greetWelcomeMessage()
 {
-    line('Welcome to the Brain Game!');
+    line('Welcome to the Brain Games!');
 }
 
 function askName()
