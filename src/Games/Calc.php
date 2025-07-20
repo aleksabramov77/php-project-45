@@ -16,14 +16,14 @@ function calculate($operator, $number1, $number2)
         default:
             throw new \Exception("Unknown operator: $operator");
     }
-};
+}
 
 function getRoundData()
 {
     $operators = ['+', '-', '*'];
     $operator = $operators[rand(0, count($operators) - 1)];
-    $number1 = rand(0, 100);
-    $number2 = rand(0, 100);
+    $number1 = random_int(0, 100);
+    $number2 = random_int(0, 100);
 
     $expression = "$number1 $operator $number2";
 

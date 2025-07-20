@@ -11,7 +11,7 @@ function isEven($number)
 
 function getRoundData()
 {
-    $hiddenNumber = rand(0, 100);
+    $hiddenNumber = random_int(0, 100);
 
     return [$hiddenNumber, isEven($hiddenNumber) ? 'yes' : 'no'];
 }

@@ -9,7 +9,8 @@
             "src/Cli.php",
             "src/GameProcess.php",
             "src/Games/Even.php",
-            "src/Games/Calc.php"
+            "src/Games/Calc.php",
+            "src/Games/GCD.php"
         ]
     },
     "authors": [
